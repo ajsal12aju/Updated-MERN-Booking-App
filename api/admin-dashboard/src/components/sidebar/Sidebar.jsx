@@ -4,14 +4,11 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import GroupIcon from '@mui/icons-material/Group';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
 import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
-import BookIcon from '@mui/icons-material/Book';
+import HotelIcon from '@mui/icons-material/Hotel';
+import HouseIcon from '@mui/icons-material/Room';
 import AppSettingsAltIcon from '@mui/icons-material/AppSettingsAlt';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import { Link } from 'react-router-dom';
 import { DarkModeContext } from '../../context/darkModeContext';
 
@@ -38,10 +35,10 @@ function Sidebar() {
             <li> <GroupIcon  className='icon'/><span>Users</span></li>
             </Link>
             <Link to="/hotels" style={{textDecoration:"none"}}>
-            <li> <ProductionQuantityLimitsIcon  className='icon'/><span>Hotels</span></li>
+            <li> <HotelIcon  className='icon'/><span>Hotels</span></li>
             </Link>
             <Link to="/rooms" style={{textDecoration:"none"}}>
-            <li> <BookmarkBorderIcon  className='icon'/><span>Rooms</span></li>
+            <li> <HouseIcon  className='icon'/><span>Rooms</span></li>
             </Link>
            
            
