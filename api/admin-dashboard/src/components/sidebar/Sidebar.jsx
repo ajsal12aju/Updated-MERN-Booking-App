@@ -23,7 +23,7 @@ function Sidebar() {
     <div className='sidebar'>
       <div className="top">
         <Link to="/" style={{textDecoration:"none"}}>
-        <span className='logo'>lamAdmin</span>  
+        <span className='logo'>Booking Admin</span>  
         </Link>
       </div>
       <hr />
@@ -43,17 +43,13 @@ function Sidebar() {
             <Link to="/rooms" style={{textDecoration:"none"}}>
             <li> <BookmarkBorderIcon  className='icon'/><span>Rooms</span></li>
             </Link>
-            <li> <LocalShippingIcon  className='icon'/><span>Delivery</span></li>
-            <p className="title">USEFUL LINKS</p>
-            <li> <MilitaryTechIcon  className='icon'/><span>Status</span></li>
-            <li> <CircleNotificationsIcon  className='icon'/><span>Notification</span></li>
+           
+           
             <p className="title">SERVICES</p>
-            <li> <HealthAndSafetyIcon  className='icon'/><span>System Health</span></li>
-            <li> <BookIcon  className='icon'/><span>Logs</span></li>
             <li> <AppSettingsAltIcon  className='icon'/><span>Setting</span></li>
             <p className="title">USER</p>
             <li> <AccountBoxIcon  className='icon'/><span>Profile</span></li>
-            <li> <LogoutIcon  className='icon'/><span>Logout</span></li>
+          <Link to='/login' style={{textDecoration:"none"}} ><li> <LogoutIcon  className='icon'/><span>Logout</span></li></Link>
          </ul>
       </div>
       <div className="bottom">
