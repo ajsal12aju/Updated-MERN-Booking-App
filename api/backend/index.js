@@ -18,11 +18,10 @@ dotenv.config()
 const connect = async () => {
     try {
         await mongoose.connect(process.env.MONGO);
-        console.log("connected succ to mongodb start!");
+        console.log("connected succsuss added data to mongodb start!");
       } catch (error) {
         throw error
       } 
-    
 }
 
 mongoose.connection.on("disconnected", ()=>{
