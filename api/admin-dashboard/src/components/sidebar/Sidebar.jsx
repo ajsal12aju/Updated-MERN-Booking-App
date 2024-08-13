@@ -2,11 +2,11 @@ import React, { useContext } from 'react'
 import "./sidebar.scss" 
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import GroupIcon from '@mui/icons-material/Group';
-import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import HotelIcon from '@mui/icons-material/Hotel';
 import HouseIcon from '@mui/icons-material/Room';
 import AppSettingsAltIcon from '@mui/icons-material/AppSettingsAlt';
+// import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
+// import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from 'react-router-dom';
